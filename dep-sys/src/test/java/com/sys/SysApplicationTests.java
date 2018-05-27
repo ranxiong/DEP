@@ -1,4 +1,4 @@
-package com.rx.dep;
+package com.sys;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -7,7 +7,7 @@ import org.springframework.test.context.junit4.SpringRunner;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest
-public class DepApplicationTests {
+public class SysApplicationTests {
 
 	@Test
 	public void contextLoads() {

@@ -1,6 +1,6 @@
 -- 创建数据库实例，默认ORCL
   --
--- 创建临时表空间
+-- 创建临时表空间 提升查询效率，缓存，可自动释放，比如order by
 create temporary tablespace rx_temp tempfile 'E:\Studio\oracle\rx_temp_20180506.dbf' size 100m autoextend on next 50m maxsize 200m;
 --drop tablespace rx_temp including contents and datafiles;
 -- 创建表空间
